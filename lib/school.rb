@@ -12,6 +12,6 @@ def initialize(name)
      end
     
     def grade
-      roster[grade]
+      roster[grade_level]
     end
 end
