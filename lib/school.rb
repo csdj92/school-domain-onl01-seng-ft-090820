@@ -12,7 +12,9 @@ def initialize(name)
     roster[grade_level] << student
      end
      
-   
+   def grade(grade_level)
+     roster[grade_level]
+   end
     
    
     def sort 
