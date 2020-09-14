@@ -12,10 +12,7 @@ def initialize(name)
     roster[grade_level] << student
      end
     
-    def grade
-      roster[grade_level]
-    end
-    
+   
     def sort 
       sort={}
       roster.each do |grade_level, student|
